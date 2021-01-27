@@ -99,6 +99,17 @@
       line-height: 1.8;
       letter-spacing: 0.4px;
     }
+
+    .twitter-wrap {
+      width: auto;
+      overflow: hidden;
+    }
+
+    .twitter-wrap iframe {
+      /* 20pxの部分は埋め込んだタイムラインの左右に必要な余白の総計を記載 */
+      width: calc(100vw - 20px) !important;
+    }
+
   }
 
   @media screen and (min-width: 767px) {
